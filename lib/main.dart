@@ -100,6 +100,7 @@ class _HomeState extends State<Home> {
     return Directionality(
       textDirection: TextDirection.ltr,
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         home: Scaffold(
             extendBody: true,
             bottomNavigationBar: Container(
